@@ -1,0 +1,10 @@
+[agent]
+name = "explain-agent-bearing"
+version = "0.1.0"
+description = "Explain Agent: produces maintenance report for bearing faults."
+
+[runtimes.executable]
+command = ["bash", "-c", "./run_agent.sh"]
+
+[options]
+# optional

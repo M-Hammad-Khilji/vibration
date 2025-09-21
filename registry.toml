@@ -1,0 +1,6 @@
+[[local-agent]]
+path = "agents/explain"
+
+[[local-agent]]
+path = "agents/interface"
+

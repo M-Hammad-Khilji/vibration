@@ -1,0 +1,10 @@
+[agent]
+name = "interface-agent-bearing"
+version = "0.1.0"
+description = "Interface Agent: accepts MP3+prompt and returns bearing diagnosis."
+
+[runtimes.executable]
+command = ["bash", "-c", "./run_agent.sh"]
+
+[options]
+# optional user-configurable options if Coral Studio supports it
